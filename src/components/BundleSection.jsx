@@ -21,7 +21,7 @@ function BundleSection({ bundleName, items, checkedItems, setCheckedItems }) {
               <strong>{item.name}:</strong> {item.description}
             </label>
             <img
-              src={`${import.meta.env.BASE_URL}images/${item.image}`
+              src={`${import.meta.env.BASE_URL}images/${item.image}`}
               alt={item.name}
               className="item-image"
             />
@@ -33,5 +33,6 @@ function BundleSection({ bundleName, items, checkedItems, setCheckedItems }) {
 }
 
 export default BundleSection;
+
 
 
