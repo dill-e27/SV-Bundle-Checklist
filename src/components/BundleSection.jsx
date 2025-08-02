@@ -21,7 +21,7 @@ function BundleSection({ bundleName, items, checkedItems, setCheckedItems }) {
               <strong>{item.name}:</strong> {item.description}
             </label>
             <img
-              src={`/SV-Bundle-Checklist/images/${item.image}`}
+              src={`/SV-Bundle-Checklist/public/images/${item.image}`}
               alt={item.name}
               className="item-image"
             />
@@ -33,3 +33,4 @@ function BundleSection({ bundleName, items, checkedItems, setCheckedItems }) {
 }
 
 export default BundleSection;
+
