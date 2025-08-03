@@ -1,0 +1,946 @@
+[
+  {
+    "id": 1,
+    "name": "Ancient Fruit",
+    "description": "Grow from Ancient Seeds during Spring, Summer and Fall.",
+    "season": "Spring|Summer|Fall",
+    "bundle": "The Missing Bundle",
+    "image": "Ancient_Fruit.png"
+  },
+  {
+    "id": 2,
+    "name": "Apple",
+    "description": "Apple Trees during Fall, The Farm Cave (fruit bat option).",
+    "season": "Fall",
+    "bundle": "Fodder Bundle|Artisan Bundle",
+    "image": "Apple.png"
+  },
+  {
+    "id": 3,
+    "name": "Apricot",
+    "description": "Apricot Trees during Spring, The Farm Cave (fruit bat option).",
+    "season": "Spring",
+    "bundle": "Artisan Bundle",
+    "image": "Apricot.png"
+  },
+  {
+    "id": 4,
+    "name": "Aquamarine",
+    "description": "Aquamarine Nodes, boxes in The Mines, Fishing Treasure Chests.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Dye Bundle",
+    "image": "Aquamarine.png"
+  },
+  {
+    "id": 5,
+    "name": "Bat Wing",
+    "description": "Dropped by Bats in The Mines or the Skull Cavern.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Adventurer's Bundle",
+    "image": "Bat_Wing.png"
+  },
+  {
+    "id": 6,
+    "name": "Blackberry",
+    "description": "Fall Foraging, The Farm Cave (fruit bat option).",
+    "season": "Fall",
+    "bundle": "Fall Foraging Bundle",
+    "image": "Blackberry.png"
+  },
+  {
+    "id": 7,
+    "name": "Blueberry",
+    "description": "Summer crops.",
+    "season": "Summer",
+    "bundle": "Summer Crops Bundle",
+    "image": "Blueberry.png"
+  },
+  {
+    "id": 8,
+    "name": "Bream",
+    "description": "Found in Rivers, 6pm – 2am, All Seasons.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Night Fishing Bundle",
+    "image": "Bream.png"
+  },
+  {
+    "id": 9,
+    "name": "Bullhead",
+    "description": "Found in the Mountain Lake, Anytime, All Seasons.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Lake Fish Bundle",
+    "image": "Bullhead.png"
+  },
+  {
+    "id": 10,
+    "name": "Cactus Fruit",
+    "description": "Desert Foraging, Oasis.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle",
+    "image": "Cactus_Fruit.png"
+  },
+  {
+    "id": 11,
+    "name": "Carp",
+    "description": "Found in the Mountain Lake, Anytime, during Spring, Summer, or Fall. Found in Secret Woods or Sewer, Anytime, All Seasons.",
+    "season": "Spring|Summer|Fall",
+    "bundle": "Lake Fish Bundle",
+    "image": "Carp.png"
+  },
+  {
+    "id": 12,
+    "name": "Catfish",
+    "description": "Found in Rivers and Secret Woods, 6am – midnight, Spring and Fall. Only when raining.",
+    "season": "Spring|Summer|Fall",
+    "bundle": "River Fish Bundle",
+    "image": "Catfish.png"
+  },
+  {
+    "id": 13,
+    "name": "Cauliflower",
+    "description": "Spring Crops.",
+    "season": "Spring",
+    "bundle": "Spring Crops Bundle",
+    "image": "Cauliflower.png"
+  },
+  {
+    "id": 14,
+    "name": "Cave Carrot",
+    "description": "The Mines, either smashing boxes or tilling soil.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle",
+    "image": "Cave_Carrot.png"
+  },
+  {
+    "id": 15,
+    "name": "Caviar",
+    "description": "Preserves Jar product from Sturgeon roe.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "The Missing Bundle",
+    "image": "Caviar.png"
+  },
+  {
+    "id": 16,
+    "name": "Cheese",
+    "description": "Cheese Press, Desert Trader.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Artisan Bundle",
+    "image": "Cheese.png"
+  },
+  {
+    "id": 17,
+    "name": "Cherry",
+    "description": "Cherry Trees during Spring, The Farm Cave (fruit bat option).",
+    "season": "Spring",
+    "bundle": "Artisan Bundle",
+    "image": "Cherry.png"
+  },
+  {
+    "id": 18,
+    "name": "Chub",
+    "description": "Can be found in the mountain lake and river during all seasons, any time.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Field Research Bundle",
+    "image": "Chub.png"
+  },
+  {
+    "id": 19,
+    "name": "Clam",
+    "description": "Caught in Crab Pots (ocean), Beach Foraging.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Clam.png"
+  },
+  {
+    "id": 20,
+    "name": "Cloth",
+    "description": "Loom, Recycling a Soggy Newspaper, Desert Trader, dropped by Mummies in Skull Cavern",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Artisan Bundle",
+    "image": "Cloth.png"
+  },
+  {
+    "id": 21,
+    "name": "Cockle",
+    "description": "Caught in Crab Pots (ocean), Beach Foraging.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Cockle.png"
+  },
+  {
+    "id": 22,
+    "name": "Coconut",
+    "description": "Desert Foraging, Oasis, shaking a Palm Tree in the Desert and on Ginger Island.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle",
+    "image": "Coconut.png"
+  },
+  {
+    "id": 23,
+    "name": "Common Mushroom",
+    "description": "Fall Foraging, Spring & Fall Foraging in the Secret Woods, The Farm Cave (mushroom option), Tapping a Mushroom Tree.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Fall Foraging Bundle",
+    "image": "Common_Mushroom.png"
+  },
+  {
+    "id": 24,
+    "name": "Copper Bar",
+    "description": "Smelting Copper Ore in the Furnace.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Blacksmith's Bundle",
+    "image": "Copper_Bar.png"
+  },
+  {
+    "id": 25,
+    "name": "Corn",
+    "description": "Summer / Fall Crops.",
+    "season": "Summer|Fall",
+    "bundle": "Fall Crops Bundle|Quality Crops Bundle",
+    "image": "Corn.png"
+  },
+  {
+    "id": 26,
+    "name": "Crab",
+    "description": "Caught in Crab Pots (ocean), drops from Rock Crabs or Lava Crabs in The Mines.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Crab.png"
+  },
+  {
+    "id": 27,
+    "name": "Crayfish",
+    "description": "Caught in Crab Pots (freshwater).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Crayfish.png"
+  },
+  {
+    "id": 28,
+    "name": "Crocus",
+    "description": "Winter Foraging",
+    "season": "Winter",
+    "bundle": "Winter Foraging Bundle",
+    "image": "Crocus.png"
+  },
+  {
+    "id": 29,
+    "name": "Crystal Fruit",
+    "description": "Tilling soil or Artifact Spots in Winter",
+    "season": "Winter",
+    "bundle": "Winter Foraging Bundle",
+    "image": "Crystal_Fruit.png"
+  },  
+  {
+    "id": 30,
+    "name": "Daffodil",
+    "description": "Spring Foraging, buy from Pierre at Flower Dance.",
+    "season": "Spring",
+    "bundle": "Spring Foraging Bundle",
+    "image": "Daffodil.png"
+  },
+  {
+    "id": 31,
+    "name": "Dandelion",
+    "description": "Spring Foraging, buy from Pierre at Flower Dance.",
+    "season": "Spring",
+    "bundle": "Spring Foraging Bundle",
+    "image": "Dandelion.png"
+  },
+  {
+    "id": 32,
+    "name": "Dinosaur Mayonnaise",
+    "description": "Mayonnaise Machine.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "The Missing Bundle",
+    "image": "Dinosaur_Mayonnaise.png"
+  },
+  {
+    "id": 33,
+    "name": "Duck Egg",
+    "description": "Ducks.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Animal Bundle",
+    "image": "Duck_Egg.png"
+  },
+  {
+    "id": 34,
+    "name": "Duck Feather",
+    "description": "Ducks.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Dye Bundle",
+    "image": "Duck_Feather.png"
+  },
+  {
+    "id": 35,
+    "name": "Earth Crystal",
+    "description": "Foraging on floors 1-39 of The Mines, Geodes, Omni Geodes, drop from Duggies in the Mines (floors 6-29).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Geologist's Bundle",
+    "image": "Earth_Crystal.png"
+  },
+  {
+    "id": 36,
+    "name": "Eel",
+    "description": "Found in the Ocean, 4pm – 2am, Spring or Fall. Only when raining.",
+    "season": "Spring|Fall",
+    "bundle": "Night Fishing Bundle",
+    "image": "Eel.png"
+  },
+  {
+    "id": 37,
+    "name": "Eggplant",
+    "description": "Fall Crops.",
+    "season": "Fall",
+    "bundle": "Fall Crops Bundle",
+    "image": "Eggplant.png"
+  },
+  {
+    "id": 38,
+    "name": "Fiddlehead Fearn",
+    "description": "Summer Foraging in the Secret Woods, Foraging on Prehistoric Floors at the Skull Cavern, Cutting down Green Rain Trees.",
+    "season": "Summer",
+    "bundle": "Chef's Bundle",
+    "image": "Fiddlehead_Fern.png"
+  },
+  {
+    "id": 39,
+    "name": "Fire Quartz",
+    "description": "Foraging on floors 81-119 of The Mines, Magma Geodes, Omni Geodes.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Geologist's Bundle",
+    "image": "Fire_Quartz.png"
+  },
+  {
+    "id": 40,
+    "name": "Fried Egg",
+    "description": "Cooking.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Chef's Bundle",
+    "image": "Fried_Egg.png"
+  },
+  {
+    "id": 41,
+    "name": "Frozen Geode",
+    "description": "Found by breaking rocks in The Mines (floors 41-79).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Field Research Bundle",
+    "image": "Frozen_Geode.png"
+  },
+  {
+    "id": 42,
+    "name": "Frozen Tear",
+    "description": "Dropped by Dust Sprites in The Mines, found in Frozen Geodes.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Geologist's Bundle",
+    "image": "Frozen_Tear.png"
+  },
+  {
+    "id": 43,
+    "name": "Ghostfish",
+    "description": "Found in The Mines (floors 20 & 60), or by fishing in the underground lakes.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Specialty Fish Bundle",
+    "image": "Ghostfish.png"
+  },
+  {
+    "id": 44,
+    "name": "Goat Cheese",
+    "description": "Made in a Cheese Press with Goat Milk.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Artisan Bundle",
+    "image": "Goat_Cheese.png"
+  },
+  {
+    "id": 45,
+    "name": "Gold Bar",
+    "description": "Smelted from 5 Gold Ore and 1 Coal.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Blacksmith's Bundle",
+    "image": "Gold_Bar.png"
+  },
+  {
+    "id": 46,
+    "name": "Grape",
+    "description": "Summer Foraging.",
+    "season": "Summer",
+    "bundle": "Summer Foraging Bundle",
+    "image": "Grape.png"
+  },
+  {
+    "id": 47,
+    "name": "Green Bean",
+    "description": "Spring Crop.",
+    "season": "Spring",
+    "bundle": "Spring Crops Bundle",
+    "image": "Green_Bean.png"
+  },
+  {
+    "id": 48,
+    "name": "Hardwood",
+    "description": "Obtained by chopping Large Stumps and Large Logs.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Construction Bundle",
+    "image": "Hardwood.png"
+  },
+  {
+    "id": 49,
+    "name": "Hay",
+    "description": "Harvested with a Sickle or from feeding animals.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Fodder Bundle",
+    "image": "Hay.png"
+  },
+  {
+    "id": 50,
+    "name": "Hazelnut",
+    "description": "Fall Foraging.",
+    "season": "Fall",
+    "bundle": "Fall Foraging Bundle",
+    "image": "Hazelnut.png"
+  },
+  {
+    "id": 51,
+    "name": "Honey",
+    "description": "Bee House placed outside during Spring, Summer, or Fall.",
+    "season": "Spring|Summer|Fall",
+    "bundle": "Artisan Bundle",
+    "image": "Honey.png"
+  },
+  {
+    "id": 52,
+    "name": "Hot Pepper",
+    "description": "Summer Crop.",
+    "season": "Summer",
+    "bundle": "Summer Crops Bundle",
+    "image": "Hot_Pepper.png"
+  },
+  {
+    "id": 53,
+    "name": "Iron Bar",
+    "description": "Smelted from 5 Iron Ore and 1 Coal.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Blacksmith's Bundle",
+    "image": "Iron_Bar.png"
+  },
+  {
+    "id": 54,
+    "name": "Jelly",
+    "description": "Made from fruit in a Preserves Jar.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Artisan Bundle",
+    "image": "Jelly.png"
+  },
+  {
+    "id": 55,
+    "name": "Large Egg",
+    "description": "Produced by chickens with high friendship. Can be white or brown.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Animal Bundle",
+    "image": "Large_Egg.png"
+  },
+  {
+    "id": 56,
+    "name": "Large Goat Milk",
+    "description": "Obtained from goats with high friendship.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Animal Bundle",
+    "image": "Large_Goat_Milk.png"
+  },
+  {
+    "id": 57,
+    "name": "Large Milk",
+    "description": "Obtained from cows with high friendship.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Animal Bundle",
+    "image": "Large_Milk.png"
+  },
+  {
+    "id": 58,
+    "name": "Largemouth Bass",
+    "description": "Found in the Mountain Lake, 6am – 7pm, All Seasons.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Lake Fish Bundle",
+    "image": "Largemouth_Bass.png"
+  },
+  {
+    "id": 59,
+    "name": "Leek",
+    "description": "Spring Foraging.",
+    "season": "Spring",
+    "bundle": "Spring Foraging Bundle",
+    "image": "Leek.png"
+  },
+  {
+    "id": 60,
+    "name": "Lobster",
+    "description": "Caught in Crab Pots (ocean).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Lobster.png"
+  },
+  {
+    "id": 61,
+    "name": "Maki Roll",
+    "description": "Cooking or from The Stardrop Saloon.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Chef's Bundle",
+    "image": "Maki_Roll.png"
+  },
+  {
+    "id": 62,
+    "name": "Maple Syrup",
+    "description": "Tapping a Maple Tree.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Chef's Bundle|Exotic Foraging Bundle",
+    "image": "Maple_Syrup.png"
+  },
+  {
+    "id": 63,
+    "name": "Melon",
+    "description": "Summer Crop.",
+    "season": "Summer",
+    "bundle": "Summer Crops Bundle|Quality Crops Bundle",
+    "image": "Melon.png"
+  },
+  {
+    "id": 64,
+    "name": "Morel",
+    "description": "Spring Foraging in the Secret Woods or mushroom cave.",
+    "season": "Spring",
+    "bundle": "Exotic Foraging Bundle",
+    "image": "Morel.png"
+  },
+  {
+    "id": 65,
+    "name": "Mussel",
+    "description": "Beach Foraging, Crab Pots (ocean).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Mussel.png"
+  },
+  {
+    "id": 66,
+    "name": "Nautilus Shell",
+    "description": "Winter Beach Foraging.",
+    "season": "Winter",
+    "bundle": "Field Research Bundle",
+    "image": "Nautilus_Shell.png"
+  },
+  {
+    "id": 67,
+    "name": "Oak Resin",
+    "description": "Tapping an Oak Tree.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Enchanter's Bundle|Exotic Foraging Bundle",
+    "image": "Oak_Resin.png"
+  },
+  {
+    "id": 68,
+    "name": "Orange",
+    "description": "Orange Trees during Summer, The Farm Cave (fruit bat option).",
+    "season": "Summer",
+    "bundle": "Artisan Bundle",
+    "image": "Orange.png"
+  },
+  {
+    "id": 69,
+    "name": "Oyster",
+    "description": "Beach Foraging, Crab Pots (ocean).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Oyster.png"
+  },
+  {
+    "id": 70,
+    "name": "Parsnip",
+    "description": "Spring Crop.",
+    "season": "Spring",
+    "bundle": "Spring Crops Bundle|Quality Crops Bundle",
+    "image": "Parsnip.png"
+  },
+  {
+    "id": 71,
+    "name": "Peach",
+    "description": "Peach Trees during Summer, The Farm Cave (fruit bat option).",
+    "season": "Summer",
+    "bundle": "Artisan Bundle",
+    "image": "Peach.png"
+  },
+  {
+    "id": 72,
+    "name": "Periwinkle",
+    "description": "Caught in Crab Pots (freshwater).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Periwinkle.png"
+  },
+  {
+    "id": 73,
+    "name": "Pine Tar",
+    "description": "Tapping a Pine Tree.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle",
+    "image": "Pine_Tar.png"
+  },
+  {
+    "id": 74,
+    "name": "Pomegranate",
+    "description": "Pomegranate Trees in Fall, The Farm Cave (fruit bat option).",
+    "season": "Fall",
+    "bundle": "Artisan Bundle|Enchanter's Bundle",
+    "image": "Pomegranate.png"
+  },
+  {
+    "id": 75,
+    "name": "Poppy",
+    "description": "Summer Crop.",
+    "season": "Summer",
+    "bundle": "Chef's Bundle",
+    "image": "Poppy.png"
+  },
+  {
+    "id": 76,
+    "name": "Potato",
+    "description": "Spring Crop.",
+    "season": "Spring",
+    "bundle": "Spring Crops Bundle",
+    "image": "Potato.png"
+  },
+  {
+    "id": 77,
+    "name": "Prismatic Shard",
+    "description": "Rare drop from various sources.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "The Missing Bundle",
+    "image": "Prismatic_Shard.png"
+  },
+  {
+    "id": 78,
+    "name": "Pufferfish",
+    "description": "Found in the Ocean, 12pm – 4pm, Summer (Sun).",
+    "season": "Summer",
+    "bundle": "Specialty Fish Bundle",
+    "image": "Pufferfish.png"
+  },
+  {
+    "id": 79,
+    "name": "Pumpkin",
+    "description": "Fall Crop.",
+    "season": "Fall",
+    "bundle": "Fall Crops Bundle|Quality Crops Bundle",
+    "image": "Pumpkin.png"
+  },
+  {
+    "id": 80,
+    "name": "Purple Mushroom",
+    "description": "Found in The Mines, Mushroom Cave, or Secret Woods.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle|Field Research Bundle",
+    "image": "Purple_Mushroom.png"
+  },
+  {
+    "id": 81,
+    "name": "Quartz",
+    "description": "Foraging in The Mines.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Geologist's Bundle",
+    "image": "Quartz.png"
+  },
+  {
+    "id": 82,
+    "name": "Rabbit's Foot",
+    "description": "Dropped by Rabbits.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Enchanter's Bundle",
+    "image": "Rabbits_Foot.png"
+  },
+  {
+    "id": 83,
+    "name": "Red Cabbage",
+    "description": "Summer Crop. Year 2+ only unless purchased from Traveling Cart.",
+    "season": "Summer",
+    "bundle": "Dye Bundle",
+    "image": "Red_Cabbage.png"
+  },
+  {
+    "id": 84,
+    "name": "Red Mushroom",
+    "description": "Foraging, Mushroom Cave, or in The Mines.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Dye Bundle|Exotic Foraging Bundle",
+    "image": "Red_Mushroom.png"
+  },
+  {
+    "id": 85,
+    "name": "Red Snapper",
+    "description": "Found in the Ocean during rain, 6am – 7pm, Summer and Fall.",
+    "season": "Summer|Fall",
+    "bundle": "Ocean Fish Bundle",
+    "image": "Red_Snapper.png"
+  },
+  {
+    "id": 86,
+    "name": "Sandfish",
+    "description": "Found in the Desert, 6am – 8pm, All Seasons.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Specialty Fish Bundle",
+    "image": "Sandfish.png"
+  },
+  {
+    "id": 87,
+    "name": "Sardine",
+    "description": "Found in the Ocean, 6am – 7pm, Spring, Fall, Winter.",
+    "season": "Spring|Fall|Winter",
+    "bundle": "Ocean Fish Bundle",
+    "image": "Sardine.png"
+  },
+  {
+    "id": 88,
+    "name": "Sea Urchin",
+    "description": "Beach Foraging (after repairing bridge).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Exotic Foraging Bundle|Dye Bundle",
+    "image": "Sea_Urchin.png"
+  },
+  {
+    "id": 89,
+    "name": "Shad",
+    "description": "Found in the River, 9am – 2am, Spring, Summer, and Fall (Rain only).",
+    "season": "Spring|Summer|Fall",
+    "bundle": "River Fish Bundle",
+    "image": "Shad.png"
+  },
+  {
+    "id": 90,
+    "name": "Shrimp",
+    "description": "Caught in Crab Pots (ocean).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Shrimp.png"
+  },
+  {
+    "id": 91,
+    "name": "Slime",
+    "description": "Dropped by Slimes in The Mines.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Adventurer's Bundle",
+    "image": "Slime.png"
+  },
+  {
+    "id": 92,
+    "name": "Snail",
+    "description": "Caught in Crab Pots (freshwater).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Crab Pot Bundle",
+    "image": "Snail.png"
+  },
+  {
+    "id": 93,
+    "name": "Snow Yam",
+    "description": "Winter Foraging using a hoe.",
+    "season": "Winter",
+    "bundle": "Winter Foraging Bundle",
+    "image": "Snow_Yam.png"
+  },
+  {
+    "id": 94,
+    "name": "Solar Essence",
+    "description": "Dropped by Ghosts, Iridium Bats, and other monsters.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Adventurer's Bundle",
+    "image": "Solar_Essence.png"
+  },
+  {
+    "id": 95,
+    "name": "Spice Berry",
+    "description": "Summer Foraging.",
+    "season": "Summer",
+    "bundle": "Summer Foraging Bundle",
+    "image": "Spice_Berry.png"
+  },
+  {
+    "id": 96,
+    "name": "Stone",
+    "description": "Collected from rocks.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Construction Bundle",
+    "image": "Stone.png"
+  },
+  {
+    "id": 97,
+    "name": "Sturgeon",
+    "description": "Mountain Lake, 6am – 7pm, Summer and Winter.",
+    "season": "Summer|Winter",
+    "bundle": "Lake Fish Bundle",
+    "image": "Sturgeon.png"
+  },
+  {
+    "id": 98,
+    "name": "Sunfish",
+    "description": "River, 6am – 7pm, Spring and Summer.",
+    "season": "Spring|Summer",
+    "bundle": "River Fish Bundle",
+    "image": "Sunfish.png"
+  },
+  {
+    "id": 99,
+    "name": "Sunflower",
+    "description": "Summer or Fall Crop.",
+    "season": "Summer|Fall",
+    "bundle": "Dye Bundle",
+    "image": "Sunflower.png"
+  },
+  {
+    "id": 100,
+    "name": "Sweet Pea",
+    "description": "Summer Foraging.",
+    "season": "Summer",
+    "bundle": "Summer Foraging Bundle",
+    "image": "Sweet_Pea.png"
+  },
+  {
+    "id": 101,
+    "name": "Tiger Trout",
+    "description": "Found in Rivers, 6am – 7pm, Fall and Winter.",
+    "season": "Fall|Winter",
+    "bundle": "River Fish Bundle",
+    "image": "Tiger_Trout.png"
+  },
+  {
+    "id": 102,
+    "name": "Tilapia",
+    "description": "Found in Ocean, 6am – 2pm, Summer and Fall.",
+    "season": "Summer|Fall",
+    "bundle": "Ocean Fish Bundle",
+    "image": "Tilapia.png"
+  },
+  {
+    "id": 103,
+    "name": "Tomato",
+    "description": "Summer Crop.",
+    "season": "Summer",
+    "bundle": "Summer Crops Bundle",
+    "image": "Tomato.png"
+  },
+  {
+    "id": 104,
+    "name": "Truffle Oil",
+    "description": "Made from Truffles using an Oil Maker.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Artisan Bundle",
+    "image": "Truffle_Oil.png"
+  },
+  {
+    "id": 105,
+    "name": "Truffle",
+    "description": "Foraged by Pigs outside in Spring, Summer, and Fall.",
+    "season": "Spring|Summer|Fall",
+    "bundle": "The Missing Bundle|Chef's Bundle",
+    "image": "Truffle.png"
+  },
+  {
+    "id": 106,
+    "name": "Tuna",
+    "description": "Found in the Ocean, 6am – 7pm, Summer and Winter.",
+    "season": "Summer|Winter",
+    "bundle": "Ocean Fish Bundle",
+    "image": "Tuna.png"
+  },
+  {
+    "id": 107,
+    "name": "Void Essence",
+    "description": "Dropped by Shadow Brutes and Shadow Shamans.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Adventurer's Bundle",
+    "image": "Void_Essence.png"
+  },
+  {
+    "id": 108,
+    "name": "Void Salmon",
+    "description": "Found in the Witch's Swamp, 12pm – 12am, Fall.",
+    "season": "Fall",
+    "bundle": "The Missing Bundle",
+    "image": "Void_Salmon.png"
+  },
+  {
+    "id": 109,
+    "name": "Walleye",
+    "description": "Found in Rivers, Lakes, and Forest Pond, 12pm – 2am, Fall (rain only).",
+    "season": "Fall",
+    "bundle": "Night Fishing Bundle",
+    "image": "Walleye.png"
+  },
+  {
+    "id": 110,
+    "name": "Wheat",
+    "description": "Summer or Fall Crop.",
+    "season": "Summer|Fall",
+    "bundle": "Fodder Bundle",
+    "image": "Wheat.png"
+  },
+  {
+    "id": 111,
+    "name": "Wild Horseradish",
+    "description": "Spring Foraging.",
+    "season": "Spring",
+    "bundle": "Spring Foraging Bundle",
+    "image": "Wild_Horseradish.png"
+  },
+  {
+    "id": 112,
+    "name": "Wild Plum",
+    "description": "Fall Foraging, The Farm Cave (fruit bat option).",
+    "season": "Fall",
+    "bundle": "Fall Foraging Bundle",
+    "image": "Wild_Plum.png"
+  },
+  {
+    "id": 113,
+    "name": "Wine",
+    "description": "Made with fruit in a Keg.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Enchanter's Bundle",
+    "image": "Wine.png"
+  },
+  {
+    "id": 114,
+    "name": "Winter Root",
+    "description": "Winter Foraging using a hoe.",
+    "season": "Winter",
+    "bundle": "Winter Foraging Bundle",
+    "image": "Winter_Root.png"
+  },
+  {
+    "id": 115,
+    "name": "Wood",
+    "description": "Chopping Trees, Branches, Stumps.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Construction Bundle",
+    "image": "Wood.png"
+  },
+  {
+    "id": 116,
+    "name": "Woodskip",
+    "description": "Forest Pond, Anytime, Spring – Fall, Secret Woods (All Seasons).",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Specialty Fish Bundle",
+    "image": "Woodskip.png"
+  },
+  {
+    "id": 117,
+    "name": "Wool",
+    "description": "Sheep, Rabbits, or Recycling Soggy Newspaper.",
+    "season": "Spring|Summer|Fall|Winter",
+    "bundle": "Animal Bundle",
+    "image": "Wool.png"
+  },
+  {
+    "id": 118,
+    "name": "Yam",
+    "description": "Fall Crop.",
+    "season": "Fall",
+    "bundle": "Fall Crops Bundle",
+    "image": "Yam.png"
+  }
+]
