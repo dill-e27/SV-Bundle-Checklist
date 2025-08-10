@@ -1,17 +1,22 @@
 /* Base layout */
+html {
+  height: 100%;
+  margin: 0;
+} 
+
 body {
   font-family: 'Lucida Sans', sans-serif;
   display: flex;
   justify-content: center;
   background-image: url(/images/Backgrounds/day.jpg);
-  background-size: fill;
+  background-size: auto;
   overflow-y: hidden;
-  height: 100%;
 }
 
 #container {
   overflow-y: auto;
-  min-height: 100dvh;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Bundle card */
@@ -153,11 +158,5 @@ body {
 @media (min-width: 2000px) {
   body {
     background-size: cover;
-  }
-}
-
-@media (max-width: 800px) {
-  body {
-    overflow-y: auto;
   }
 }
