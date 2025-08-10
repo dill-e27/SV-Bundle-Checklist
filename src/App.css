@@ -6,12 +6,12 @@ body {
   background-image: url(/images/Backgrounds/day.jpg);
   background-size: fill;
   overflow-y: hidden;
+  height: 100%;
 }
 
 #container {
-  overflow-y: scroll;
-  min-height: 680px;
-  height: 100vh;
+  overflow-y: auto;
+  min-height: 100dvh;
 }
 
 /* Bundle card */
@@ -155,9 +155,3 @@ body {
     background-size: cover;
   }
 }
-
-@media (max-width: 1000px) {
-  #container {
-    height: 100dvh;
-  }
-} 
