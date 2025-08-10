@@ -1,21 +1,24 @@
 /* Base layout */
-html {
+html, body {
   height: 100%;
   margin: 0;
-} 
+  padding: 0;
+}
 
 body {
   font-family: 'Lucida Sans', sans-serif;
   display: flex;
   justify-content: center;
   background-image: url(/images/Backgrounds/day.jpg);
-  background-size: auto;
-  overflow-y: hidden;
+  background-size: cover;
+  overflow: hidden; 
 }
 
+/* Scrollable container */
 #container {
-  overflow-y: auto;
+  flex: 1;
   height: 100%;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -118,10 +121,6 @@ body {
 
 /* Responsive styles for smaller screens */
 @media (max-width: 1000px) {
-  #container {
-    height: 100vh;
-  }
-
   .bundle {
     padding: 1em;
     margin: 0.5em;
