@@ -3,6 +3,8 @@ function ProgressBar({ percent, onReset }) {
   return (
     <div className="progress-box"
       style={{
+        display: 'flex',
+        alignItems: 'center',
         position: 'fixed',
         top: '1vw',
         left: '1vw',
