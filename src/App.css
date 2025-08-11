@@ -151,6 +151,10 @@ body {
     padding: 0.5em 1em;
   }
 
+  .progress-box {
+    width: 4vw; 
+  }
+
   .progress-container {
     font-size: 12px;
   }
